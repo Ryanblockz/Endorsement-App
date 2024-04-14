@@ -1,0 +1,136 @@
+html,
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #432000;
+    background-color: #111827;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    margin: 6px;
+}
+
+#input-field {
+    height: 90px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 2.5px;
+    padding-left: 10px;
+    background-color: #444059;
+    border: 0;
+
+}
+
+.inputContainer {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+#from-input {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #444059;
+    border: 0;
+
+
+}
+
+#to-input {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 11px;
+    margin-right: 10px;
+    background-color: #444059;
+    border: 0;
+}
+
+#publishButton {
+    padding: 15px;
+    border: 0;
+    background-color: #28A9F1;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 7.5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    color: white;
+    font-style: italic;
+    margin: 5px;
+}
+
+#endorsement-container {
+    background-color: white;
+    padding: 10px;
+    max-width: 320px;
+    margin: 6px;
+}
+
+h5 {
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+#toLikeContainer {
+    display: flex;
+    /* width: 43%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeButton {
+    background-color: white;
+    border: 0;
+    outline: none;
+}
+
+.likeButton:hover {
+    color: grey;
+    outline: none;
+}
+
+.likeButton:active {
+    color: red;
+    transition: all 0.125s;
+    transform: scale(1.3);
+    outline: none;
+}
+
+section {
+    font-size: 14px;
+    color: #1B1924;
+    text-align: left;
+    font-style: italic;
+    display: flex;
+    padding: 10px;
+}
