@@ -18,6 +18,16 @@ textarea {
 
 }
 
+#publishButton:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+#publishButton:active {
+    background-color: grey;
+    cursor: pointer;
+}
+
 img {
     width: 150px;
     margin: 0 auto;
